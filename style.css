@@ -1,0 +1,78 @@
+body {
+            font-family: Arial, sans-serif;
+            font-style: oblique;
+            margin: 0;
+            padding: 0;
+            background-color: #ff6161a8;
+            background-image: url(tomato-fruit-rounded-slices-8okkl7lpk6mx9o6w.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header {
+            background-color: #9e2f2fcc;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .search-bar {
+            margin: 20px;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 300px;
+        }
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .item1{
+            background-color: rgba(255, 214, 214, 0.555);
+            border: 4px solid #61ff4cd3;
+            border-radius: 5px;
+            margin: 50px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+         }
+         .item2{
+            background-color: rgba(255, 214, 214, 0.555);
+            border: 4px solid #fffc4cd3;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+         }
+         .item3{
+            background-color: rgba(255, 214, 214, 0.555);
+            border: 4px solid #ff4c4cd3;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+         }
+
+         footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .logo{
+            position: absolute;
+        }
