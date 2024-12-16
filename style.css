@@ -65,13 +65,13 @@ body {
          }
 
          footer {
-            background-color: #333;
+           background-color: #333;
             color: white;
-            position: fixed;
             text-align: center;
-            padding: 10px;
+            padding: 50px;
+            position: fixed;
             bottom: 0;
-            width: 60%;
+            width: 100%;
         }
         .logo{
             position: absolute;
