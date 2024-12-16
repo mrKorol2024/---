@@ -68,10 +68,9 @@ body {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 50px;
-            position: absolute;
+            padding: 10px;
             bottom: 0;
-            width: 100%;
+            width: 60%;
         }
         .logo{
             position: absolute;
@@ -92,11 +91,3 @@ body {
     padding-left: 100%;
     animation: scroll-text 20s linear infinite;
 }
-
-@keyframes scroll-text {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
